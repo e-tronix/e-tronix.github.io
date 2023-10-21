@@ -46,26 +46,26 @@ export default function Home() {
           </ul>
         </div>
         <div className="rounded p-8 mt-10 max-w-6xl rounded-xl bg-blue-500">
-          <Image src={'/555-blinker/start.jpg'} height={500} width={500} alt="start image" />
+          <Image src={'/start.jpg'} height={500} width={500} alt="start image" />
           <h2 className="text-2xl mt-4 font-semibold">- What the start should look like</h2>
         </div>
         <div className="rounded p-8 mt-10 max-w-6xl rounded-xl bg-blue-500">
-          <Image src={'/555-blinker/555power.jpg'} height={500} width={500} alt="start image" />
+          <Image src={'/555power.jpg'} height={500} width={500} alt="start image" />
           <h2 className="text-3xl mt-4 font-semibold">Step 1:</h2>
           <h2 className="text-2xl mt-4 font-semibold">Connect the power(+) wire to pin 8 on the IC from the red rail, this allows power to enter our circuit from the battery</h2>
         </div>
         <div className="rounded p-8 mt-10 max-w-6xl rounded-xl bg-blue-500">
-          <Image src={'/555-blinker/555ground.jpg'} height={500} width={500} alt="start image" />
+          <Image src={'/555ground.jpg'} height={500} width={500} alt="start image" />
           <h2 className="text-3xl mt-4 font-semibold">Step 2:</h2>
           <h2 className="text-2xl mt-4 font-semibold">Connect the ground(-) wire to pin 1 on the IC from the blue rail, this allows power to exit our circuit towards the battery</h2>
         </div>
         <div className="rounded p-8 mt-10 max-w-6xl rounded-xl bg-blue-500">
-          <Image src={'/555-blinker/threshhold.jpg'} height={500} width={500} alt="start image" />
+          <Image src={'/threshhold.jpg'} height={500} width={500} alt="start image" />
           <h2 className="text-3xl mt-4 font-semibold">Step 3:</h2>
           <h2 className="text-2xl mt-4 font-semibold">Connect a wire from pin 6 (threshold) on the IC to pin 2 (trigger), this makes the timer trigger every time it reaches a specific voltage thus making the timer "blink"</h2>
         </div>
         <div className="rounded p-8 mt-10 max-w-6xl rounded-xl bg-blue-500">
-          <Image src={'/555-blinker/ledground.jpg'} height={500} width={500} alt="start image" />
+          <Image src={'/ledground.jpg'} height={500} width={500} alt="start image" />
           <h2 className="text-3xl mt-4 font-semibold">Step 4:</h2>
           <h2 className="text-2xl mt-4 font-semibold">Next, Connect a wire from pin 3 (output) to the pin beneath the LED, this will make the LED turn on every 1 second with our configuration of resistors and capacitors (you can change the frequency by using different resistors or capacitors) <a target="_blank" className="underline decoration-green-500" href="https://circuitdigest.com/calculators/555-timer-astable-circuit-calculator">Here's a calculator for that</a></h2>
         </div>
