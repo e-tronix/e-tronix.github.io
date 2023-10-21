@@ -1,10 +1,10 @@
 import Head from "next/head"
 import Image from "next/image"
-import start from "public/555-blinker/start.jpg"
-import power from "public/555-blinker/555power.jpg"
-import ground from "public/555-blinker/555ground.jpg"
-import threshhold from "public/555-blinker/threshhold.jpg"
-import ledground from "public/555-blinker/ledground.jpg"
+import start from "/public/555-blinker/start.JPG"
+import power from "/public/555-blinker/555power.jpg"
+import ground from "/public/555-blinker/555ground.jpg"
+import threshhold from "/public/555-blinker/threshhold.jpg"
+import ledground from "/public/555-blinker/ledground.jpg"
 
 
 
