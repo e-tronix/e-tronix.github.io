@@ -1,12 +1,9 @@
 import Head from "next/head"
 import Image from "next/image"
-import start from "/public/555-blinker/start.JPG"
-import power from "/public/555-blinker/555power.JPG"
-import ground from "/public/555-blinker/555ground.JPG"
-import threshhold from "/public/555-blinker/threshhold.JPG"
-import ledground from "/public/555-blinker/ledground.JPG"
-
-
+import start from "/public/555-blinker/start1.JPG"
+import power from "/public/555-blinker/555power1.JPG"
+import ground from "/public/555-blinker/555ground1.JPG"
+import threshhold from "/public/555-blinker/threshhold1.JPG"
 
 export default function Home() {
   return (
@@ -70,11 +67,6 @@ export default function Home() {
           <Image src={threshhold} height={500} width={500} alt="start image" />
           <h2 className="text-3xl mt-4 font-semibold">Step 3:</h2>
           <h2 className="text-2xl mt-4 font-semibold">Connect a wire from pin 6 (threshold) on the IC to pin 2 (trigger), this makes the timer trigger every time it reaches a specific voltage thus making the timer "blink"</h2>
-        </div>
-        <div className="rounded p-8 mt-10 max-w-6xl rounded-xl bg-blue-500">
-          <Image src={ledground} height={500} width={500} alt="start image" />
-          <h2 className="text-3xl mt-4 font-semibold">Step 4:</h2>
-          <h2 className="text-2xl mt-4 font-semibold">Next, Connect a wire from pin 3 (output) to the pin beneath the LED, this will make the LED turn on every 1 second with our configuration of resistors and capacitors (you can change the frequency by using different resistors or capacitors) <a target="_blank" className="underline decoration-green-500" href="https://circuitdigest.com/calculators/555-timer-astable-circuit-calculator">Here's a calculator for that</a></h2>
         </div>
         <div className="rounded p-8 mt-10 max-w-6xl rounded-xl bg-blue-500">
           <h2 className="text-3xl mt-4 font-semibold">Conclusion: </h2>
