@@ -15,7 +15,7 @@ export default function Home() {
       <h1 className="text-bold text-4xl">Our Kits:</h1>
     </div>
     <div className="flex flex-col sm:flex-row items-center rounded-lg border border-black mx-auto w-10/12 overflow-hidden">
-  <Image height={300} width={600} alt="555 blinker" src={'/difficult-circuit.jpg'} className="rounded-md object-cover" />
+    <Image height={300} width={600} alt="555 blinker" src={'/difficult-circuit.jpg'} className="rounded-l-md object-cover" />
   <div className="w-full p-4 flex flex-col justify-between">
     <div>
       <h1 className="font-semibold text-xl mt-4 mb-2 md:text-2xl lg:text-3xl">555 Blinker</h1>
@@ -31,7 +31,7 @@ export default function Home() {
         Tutorial
       </Link>
     </div>
-    <p className="font-semibold">Call or send a message on whatsApp to 01011160288 to order !</p>
+    <p className="mt-4 md:mt-0 font-semibold">Call or send a message on whatsApp to 01011160288 to order !</p>
   </div>
 </div>
 <div className="flex justify-center mt-12">
