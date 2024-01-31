@@ -37,7 +37,7 @@ const Navbar = () => {
             <li>
               <Link
                 href={'/'}
-                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                className="block py-2 px-3 bg-blue-700 rounded md:bg-transparent md:p-0 md:hover:text-blue-700"
                 aria-current="page"
               >
                 Home
@@ -46,7 +46,7 @@ const Navbar = () => {
             <li>
               <Link
                 href={'/kits'}
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 Kits
               </Link>

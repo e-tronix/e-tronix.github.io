@@ -18,7 +18,7 @@ export default function Home() {
     <Image height={300} width={600} alt="555 blinker" src={'/difficult-circuit.jpg'} className="md:rounded-l-md object-cover"/>
   <div className="w-full p-4 flex flex-col justify-between">
     <div>
-      <h1 className="font-semibold text-xl mt-4 mb-2 md:text-2xl lg:text-3xl">555 Blinker</h1>
+      <h1 className="font-semibold text-xl mt-4 mb-2 md:text-2xl lg:text-3xl">555 Blinker (200 LE)</h1>
       <p className="text-sm md:text-base lg:text-lg text-gray-700">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit odio eligendi alias exercitationem cumque molestias animi error sequi aut ad veniam facilis, minima maxime illo ipsam reiciendis labore fuga pariatur!
       </p>
